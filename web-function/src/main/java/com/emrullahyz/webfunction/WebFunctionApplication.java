@@ -53,7 +53,6 @@ public class WebFunctionApplication {
 		};
 	}
 
-
 	@Bean
 	public Consumer<Flux<TollRecord>> processListTollRecordReactive(){
 		return value ->{
